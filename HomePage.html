@@ -1,0 +1,165 @@
+<!DOCTYPE Html>
+
+<html>
+
+
+	<head>
+	
+		<title> WebPage </title>
+		<link rel ="stylesheet" href = "nav.css"/>
+		<link rel="stylesheet" href="file.css">
+		<link rel="stylesheet" href="footer.css">
+		<meta charset="UTF-8">
+    		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<script> 
+		
+
+		function move() {
+
+			var object = document.getElementById("one");
+			var pos = -1600;
+			var id = setInterval(play, 2);
+
+			function play() {
+			
+				if(pos == 0) {
+					clearInterval(id);
+				}
+				else {
+					pos+=20;
+					object.style.left = pos + 'px';
+					
+				}
+			
+			}
+			
+		
+		}
+
+		function openSearch() {
+			
+			window.location.href = "\Search Page\SearchPage.html";
+			
+		}
+		
+
+		document.getElementById("next").addEventListener('click', function openSearch() {
+			
+			window.location.href = "\Search Page\SearchPage.html";
+			
+		});
+		
+		
+		</script>
+
+	</head>
+
+	<body>
+
+		<nav>
+		
+		<div id= "holder"> 
+		
+			
+			<div id = "logo"> <img src= "JB.jpg"></div>
+			<div id = "link"> <a href= "">W</a></div>
+			
+		
+		</div>
+		
+		<ul id= "navigation">
+		
+			<li> <a href= "clothes.html">Clothes</a> </li>
+			<li> <a href= "items/item.html">Jackets</a> </li>
+			<li> <a href= "Shoes.html">Shoes</a> </li>
+			<li> <a href= "Accessories.html">Accessories</a> </li>
+			<li> <a href= "Arrivals.html">Arrivals</a> </li>
+		
+		</ul>
+		<div id= "itemNav">
+		<div class= "nav_items"> 
+			<a href= "Search Page\SearchPage.html"><img src = "search.png" id = "searchButton" /></a>
+			 <a><img src = "shopping-cart.png"> </a>
+			<a><img src = "profile.png"> </a>		
+		</div>
+		</nav>
+		<section>
+		
+		<div id = "holderItem">
+			<div id= "superCont" onclick="move()">
+				
+				<img src= "JB Pic3.jpg">
+					
+			
+				</div>
+				
+				
+				
+			</div>
+
+			<div id= "Hot">
+				
+				<div id = "promo"> <img src= "JB Pic1.jpg"> </div>
+				<div class= "words"> <h1> Check out our Hot Promotions </h1>
+					<h2> Dont miss out on these fantastic deals. Get 1 item free for a purchase of any 3 items that are on Sale promotion</h2>
+					<button type= "button"> Shop Now </button>
+				</div>
+								
+			</div>
+			<div id= "New">
+				
+				
+				<div class= "words"> <h1> Check out Whats New In out Stores </h1>
+					<h2> New stock new deals. See our new apparel and find out whether you find anything to peak your intrest</h2>
+					<button type= "button"> Shop Now </button>
+				</div>
+				<div id = "new_items"> <img src= "JB Pic2.jpg"> </div>
+								
+			</div>
+		</div>	
+				
+		</section>
+		
+		<footer>
+			
+			<div id= "footContainer">
+				
+				<div class = "foot">
+					<h1>Need Help?</h1>
+					<ul class="Help list">
+						<li> <a href= "returns.html">Returns Policy</a> </li>
+						<li> <a>Shipment & Delivery</a> </li>
+						<li> <a>FAQ</a> </li>
+						<li> <a>Lay By Activity</a> </li>
+						<li> <a>Privacy Policy</a> </li>
+					</ul>
+				</div>
+				<div class = "foot">
+					<h1>About US</h1>
+					<ul>
+						<li> <a>About JB</a> </li>
+						<li> <a>Store Locations</a> </li>
+						<li> <a>Other Affiliate Stores</a> </li>
+						<li> <a>JB Advertising</a> </li>
+						
+					</ul>
+				</div>
+				<div class = "foot"> 
+					<h1>Contact Us</h1>
+					<ul>
+						<li> <a>Email Assistance</a> </li>
+						<li> <a>Call +267 033 9685</a> </li>
+						
+					</ul>
+					
+				</div>
+			
+			</div>
+			
+		</footer>
+
+	</body>
+
+
+</html>

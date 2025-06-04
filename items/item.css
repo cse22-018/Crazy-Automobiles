@@ -1,0 +1,227 @@
+#overview {
+	width: 90%;
+	height: 150px;
+	margin: 10px 0px 0px 40px;
+	background-color: #D3D3D3;	
+}
+
+#filters {
+	float: left;
+	width: 300px;
+	height: 600px;
+	background-color: yellow;
+	margin: 10px 5px 0px 40px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.filter {
+	height: 60px;
+	width: 260px;
+	margin: 20px 20px 0px 20px;
+	padding: none;
+	border 2px;
+	border-style: solid;
+	border-color: black;
+
+}
+
+.category {
+	margin: 20px 0px 0px 40px;
+	font-size: 20px;
+}
+
+#products {
+	width: 1150px;
+	height: 1240px;
+	margin: 10px 5px 0px 350px;
+	background-color: #00FF7F;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	
+}
+
+#products a {
+	width: 245px;
+	height: 360px;
+	background-color: blue;
+	margin: 0px 15px 0px 25px;
+}
+
+.item {
+	width: 245px;
+	height: 380px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: flex-start;
+	background-color: purple;
+	margin: 0px 0px 0px 0px;
+	
+}
+
+
+
+.displayCont {
+	width: 245px;
+	height: 250px;
+}
+
+.display {
+	width: 245px;
+	height: 250px;
+	object-fit: cover;
+}
+
+.things {
+	width: 245px;
+	height: 40px;
+	display: flex;
+	flex-direction: row;
+}
+
+
+#labelCont {
+	width: 240px;
+	height: 40px
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	padding: none;
+	margin-top: 0px;
+		
+}
+
+.fav {
+	width: 20px;
+	height: 20px;
+	float: right;
+	margin: 0px 10px 0px 0px;
+}
+
+.fav img {
+	object-fit: cover;
+	width: 20px;
+	height: 20px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+
+}
+
+#labelCont h1 {
+	font-size: 16px;
+	width: 40px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	margin-right: 0px;
+	padding: 5px 0px 0px 5px;
+}
+
+
+.nameCont {
+	margin-top: 0px;
+	height: 30px;
+	width: 245px;
+}
+
+
+.prodName {
+	font-size: 17px;
+	margin: 0px 5px 5px 5px;
+	padding: 0px 0px 0px 0px;
+	font-weight: normal;
+	
+}
+
+.prodPrice {
+	font-size: 20px;
+	margin-top: 0px;
+	margin: 0px 0px 10px 10px;
+	padding: none;
+	font-weight: bold;
+	font-family: sans-serif;
+
+}
+
+footer {
+	height: 400px;
+	width: 100%;
+	background-color: black;
+	margin-top: 100px;
+
+}
+
+#footContainer {
+
+	width: 100%;
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	
+
+}
+
+.foot {
+	height: 350px;
+	width: 25%;
+	margin: 50px 0px 0px 30px;
+	padding: 0px;
+
+}
+
+.foot h1 {
+	margin: 0px 0px 0px 40px;
+	font-size: 20px;
+	color: white;
+}
+
+.foot ul {
+	margin: none;
+	padding: none;
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	
+}
+
+.foot li {
+	margin: 0px 0px 15px 0px;
+	padding: none;
+	height: 20px;
+	width: 150px;
+	
+}
+
+.foot li:hover {
+	background-color: transparent;	
+}
+
+.foot a {
+	height: 15px;
+	width: 150px;
+	margin: none;
+	padding: none;
+	text-align: start;
+	float: none;
+	color: white;
+}
+
+#loadMore {
+	height: 60px;
+	width: 600px;
+	margin: 20px 0px 20px 400px;
+	padding: none;
+}
+
+#loadMore button {
+	width: 300px;
+	height: 40px;
+	padding: none;
+	margin: none;
+}

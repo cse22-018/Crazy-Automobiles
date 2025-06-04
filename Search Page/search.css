@@ -1,0 +1,86 @@
+#search {
+	width: 1200px;
+	height: 800px;
+	margin: 50px 0px 0px 100px;
+
+}
+
+input {
+	width: 900px;
+	height: 30px;
+	margin-left: 20px; 
+}
+
+#s_button {
+	width: 80px;
+	height: 30px;
+}
+
+
+
+#clear {
+	width: 30px;
+	height: 30px;	
+	float: right;
+	margin: 0px 50px 0px 0px;
+	border: none;
+}
+
+#things {
+	width: 1000px;
+	height: 50px;
+	display: inline;
+
+}
+
+#cartParent {
+	width: 1000px;
+	height: 640px;
+	background-color: lightgray;
+}
+
+#child {
+	width: 1200px;
+	height: 640px;
+	background-color: lightgray;
+	margin-top: 30px;
+}
+
+.newDiv {
+	width: 1000px;
+	height: 30px;
+	background-color: red;
+	margin-top: 10px;
+}
+
+.holderDiv {
+	width: 1000px;
+	height: 640px;
+
+}
+
+.itemPicture {
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+	margin: 10px 20px 10px 10px;
+}
+
+.itemHolder {
+	width: 1200px;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	background-color: white;
+}
+
+.textHolder {
+	width: 600px;
+	height: 80px;	
+}
+
+.itemText {
+	font-family: Arial;
+	font-size: 13px;
+	margin: 20px 0px 5px 10px;
+}

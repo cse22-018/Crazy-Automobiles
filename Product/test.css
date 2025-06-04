@@ -1,0 +1,45 @@
+#owner {
+	width: 250px;
+	height: 300px;
+	background-color: red;
+
+}
+
+#owner a {
+	width: 250px;
+	height: 300px;
+	background-color: aqua;
+}
+
+
+#holder {
+	width: 100px;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+}
+
+#holder div {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+
+a {
+	font-size: 40px;
+	margin: 0px 0px 0px 5px;
+	opacity: 0;
+}
+
+#logo {
+	width: 50px;
+	height: 50px;	
+}
+
+#logo img {
+	width: 50px;
+	height: 50px;	
+	object-fit: cover;
+	padding: none;
+	margin: none;
+}
