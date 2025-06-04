@@ -1,0 +1,104 @@
+
+.cont {
+	height: 300px;
+	width: 100%;
+	position: relative;
+	left: -1600px;
+
+}
+
+
+
+#holder {
+	width: 100%;
+}
+
+#superCont {
+	width: inherit;
+	height: 400px;
+	margin: 0px 0px 0px 0px;
+}
+
+#superCont img {
+	width: inherit;
+	height: inherit;
+	object-fit: cover;
+}
+
+#Hot {
+	width: 100%;
+	height: 550px;
+	display: flex;
+	flex-direction: row;
+	margin: 50px 0px 0px 50px;
+}
+
+#promo {
+	width: 600px;
+	height: 600px;
+}
+
+#promo img {
+	width: inherit;
+	height: inherit;
+	object-fit: cover;
+	margin-left: 30px;
+}
+
+.words {
+	width: 500px;
+	height: 400px;
+	margin: 100px 0px 0px 100px;
+
+}
+
+.words h1 {
+	font-weight: normal;
+	font-size: 30px;
+	margin: 100px 0px 20px 10px;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 20px;
+	margin: 20px 0px 20px 10px;
+}
+
+#Hot button {
+	width: 120px;
+	height: 50px;
+	margin: 20px 0px 0px 200px;
+	border-radius: 20px;
+}
+
+#New {
+	width: 100%;
+	height: 550px;
+	display: flex;
+	flex-direction: row;
+	margin: 50px 0px 0px 50px;
+}
+
+#new_items {
+	width: 600;
+	height: 600px;
+	background-color: blue;
+	margin-left: 250px;
+	margin-top: 50px;
+}
+
+#new_items img {
+	width: inherit;
+	height: inherit;
+	object-fit: cover;
+	margin-bottom: 30px;
+}
+
+#New button {
+	width: 120px;
+	height: 50px;
+	margin: 20px 0px 0px 200px;
+	border-radius: 20px;
+}
+
+
