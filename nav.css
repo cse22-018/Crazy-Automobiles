@@ -23,17 +23,37 @@ nav {
 	
 }
 
-#logoBox {
+#holder {
+	width: 100px;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+}
+
+#holder div {
 	width: 50px;
-	height:50px;
-	margin: 10px 0px 0px 20px;
-	
+	height: 50px;
+	position: absolute;
+	margin: 10px 0px 0px 10px;
+}
+
+#link a {
+	font-size: 40px;
+	margin: 0px 0px 0px 5px;
+	opacity: 0;
 }
 
 #logo {
-	object-fit: cover;
 	width: 50px;
-	height:50px;
+	height: 50px;	
+}
+
+#logo img {
+	width: 50px;
+	height: 50px;	
+	object-fit: cover;
+	padding: none;
+	margin: none;
 }
 
 #itemNav {
